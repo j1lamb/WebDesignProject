@@ -1,0 +1,205 @@
+nav, nav ul, nav li{
+	margin:0;
+	padding:0;
+}
+
+nav {
+    background-color: rgb(119,125,132);
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul{
+	list-style:none;
+	float:left;
+	width:100%;
+}
+nav ul li{
+	float:left;
+	position:relative;
+}
+nav ul a{
+	display: block;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+	padding: 6px 90px;
+	color: rgb(255,255,255);
+	background-color: rgb(205,16,65);
+	text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+	border-bottom: 2px solid black;
+}
+
+nav ul ul{
+	position:absolute;
+	left:-9999px; 
+}
+nav ul ul li{
+	float:none;
+}
+nav ul li:hover ul{ 
+	left:0; 
+}
+nav ul li:hover a{ 
+	background:rgb(119,125,132);
+}
+nav ul li:hover ul li a:hover{ 
+	color:#fff;
+	background:#444;
+}
+
+body {
+    font-family: 'Akzidenz Grotesk BE Condensed', sans-serif;
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: rgb(0,42,96);
+    background-size: 16px 16px;
+    color: white;
+    margin: 0 auto; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#info h3 {
+    width:  600px;
+}
+
+#bio h3 {
+    width: 600px;
+}
+
+#photoDiv {
+    border: 10px solid rgb(205,16,65);
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 200px;
+    float: right;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+    display: block;
+    border: 10px solid rgb(205,16,65);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#h1home {
+    border-radius: 10px;
+    margin-left: 290px;
+    width: 650px;
+    background-color: rgb(205,16,65);
+}
+
+#h2home {
+    border-radius: 10px;
+    margin-left: 290px;
+    width: 650px;
+    background-color: rgb(205,16,65);
+}
+
+#h3home {
+    background: none;
+    font-size: 1.0em;
+    padding: 2px 20px;
+    color: white;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-radius: 10px;
+    margin-left: 290px;
+    width: 610px;
+    background-color: rgb(205,16,65);
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.h2photo {
+    text-align: left;
+    background: linear-gradient(90deg, rgb(205,16,65), rgb(0,42,96));
+    padding: 2px 20px;
+    margin-bottom: 20px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+h3 {
+    background: linear-gradient(90deg, rgb(205,16,65), rgb(0,42,96));
+    font-size: 1.0em;
+    padding: 2px 20px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description {
+    text-indent: 20px;
+}
+
+
+table {
+    border: 10px solid rgb(205,16,65);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+td, th { 
+    border: 3px solid rgb(205,16,65);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header strong {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(205,16,65);
+}
+
+fieldset {
+    border-color: rgb(205,16,65);
+}
+
+#info {
+    
+}
